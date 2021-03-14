@@ -30,7 +30,6 @@ echo " "
 echo "测压完毕后将会自动生成测压报告"
 ab -n ${b} -c ${a} ${url} 
 else
-then
     echo "错误啦，乱输东西啊，垃圾东西，用个屁啊！"
 exit
 fi
