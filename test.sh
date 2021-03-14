@@ -20,4 +20,5 @@ echo "每秒发包数: ${a}"
 echo "总发包数: ${b}"
 echo " "
 echo "测压完毕后将会自动生成测压报告"
+pkg install apache2
 ab -n ${b} -c ${a} ${url} 
