@@ -6,11 +6,11 @@ echo "注意，本测压工具不对后果进行任何承担"
 echo "本测压工具可能会让网站造成超时无法连接"
 echo "如果你怕了，请输入e字样，愿意承担后果输入o"
 read -n1 -p "你要继续吗？[e/o]" eo
-if ["$eo" == "e"]
+if ("$eo" == "e")
 then
       echo "好吧，也许只是你手贱点进来，傻逼"
       exit
-elif ["$so" == "o"]
+elif ("$so" == "o")
 then
     echo " "
 echo "请输入测试对象网址:"
