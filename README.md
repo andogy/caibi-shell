@@ -1,6 +1,6 @@
 # README
 ## 初始化
-1. 打开termux终端，没有请到[这](http://caibiwangluo.eu5.org/file/termux.apk)下载
+1. 打开termux终端，没有请到[这](https://f-droid.org/repo/com.termux_108.apk)下载
 2. 输入以下命令
 ```console
 $ pkg install https://github.com/andogy/caibi-shell
