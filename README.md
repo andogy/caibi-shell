@@ -4,9 +4,10 @@
 2. 输入以下命令
 ```console
 $ pkg install git
-$ git clone https://github.com/andogy/caibi-shell
+$ git clone https://github.com/andogy/caibi-shell可以
 ```
 ## 使用
+### 压测脚本
 1. 输入以下命令
 ```console
 $ cd ./caibi-shell
