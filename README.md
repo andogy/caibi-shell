@@ -12,7 +12,7 @@ $ git clone https://github.com/andogy/caibi-shell/
 1. 输入以下命令
 ```console
 $ cd ./caibi-shell
-$ bash ./yc/main.sh
+$ bash ./cc.sh
 ```
 2. 接下来输入shell要求的参数即可，对象网址请加上http://
 ### 单页爬站
