@@ -4,13 +4,21 @@
 2. 输入以下命令
 ```console
 $ pkg install git
-$ git clone https://github.com/andogy/caibi-shell可以
+$ pkg install python
+$ git clone https://github.com/andogy/caibi-shell/
 ```
 ## 使用
 ### 压测脚本
 1. 输入以下命令
 ```console
 $ cd ./caibi-shell
-$ bash ./main.sh
+$ bash ./yc/main.sh
 ```
-2. 接下来输入shell要求的参数即可，url请加上http://
+2. 接下来输入shell要求的参数即可，对象网址请加上http://
+### 单页爬站
+1. 输入以下命令
+```console
+$ cd ./caibi-shell
+$ python ./spider.py
+```
+2. 输入网址，回车，等待结果即可
